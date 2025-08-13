@@ -65,4 +65,8 @@ public class Cart {
         items.forEach(cartItem -> cartItem.setCart(null)); // *
         items.clear();
     }
+
+    public boolean isEmpty() {
+        return items.isEmpty();
+    }
 }
